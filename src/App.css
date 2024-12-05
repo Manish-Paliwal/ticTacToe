@@ -1,0 +1,96 @@
+body{
+    padding: 0px;
+    margin:0px;
+}
+
+.Container{
+    background-color: aquamarine;
+}
+
+.gameName{
+    margin:0px;
+    height: 10vh;
+    /* height: 50px; */
+    /* width: 100%; */
+    text-align: center;
+    background-color:rgb(42, 66, 66);
+    /* background-color: aqua; */
+    color:rgb(235, 216, 8);
+    font-weight: bolder;
+    text-shadow: 0 0 0.5rem rgb(238, 7, 226);
+}
+
+.winText{
+    text-align: center;
+    color:brown;
+    margin: 10px;
+}
+
+.startBtnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    /* background-color: black; */
+}
+
+#startBtn{
+    margin-top: 10px;
+    height:40px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background-color: fuchsia;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+#startBtn:hover{
+    cursor: pointer;
+    background-color: rgb(83, 4, 83);  
+}
+
+.game{
+    height: 80vh;
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aquamarine; */
+}
+
+.boxes{
+    
+    /* height: 60%; */
+    height:60vmin;
+    width:60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:0.5vmin;
+    /* background-color:black; */
+}
+
+.box{
+    /* height: 110px;
+    width: 110px; */
+    height:19vmin;
+    width: 19vmin;
+    border-radius: 10px;
+    border: none;
+    font-size: 10vmin;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.657);
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.box:hover{
+    cursor: pointer;
+    background-color: rgb(204, 214, 220);
+}
+
+.box:focus{
+    background-color: aliceblue;
+}
+
